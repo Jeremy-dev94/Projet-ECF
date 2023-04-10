@@ -17,7 +17,7 @@ header {
     font-weight: 900;
     font-size: 100px;
     text-align: center;
-    margin-top: 0.1em;
+    margin-top: 0.5em;
 }
 
 .mon-h2 {
@@ -37,29 +37,26 @@ header {
 .form-ins {
     text-align: center;
     background-color: darkgrey;
-    margin-left: 400px;
-    margin-right: 400px;
-    border-radius: 5% ;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
-.form-co {
-    margin-top: 0;
-    padding: 45px;
-    margin-left: 400px;
-    margin-right: 400px;
-    background-color: darkgrey;
-    border-radius: 5% ;
+.form-ins .form-control {
+    
 }
 
-.btn-valForCo button {
+.form-floating {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.btn-valForCo {
+    left: 500px;
+}
+
+.btn-valForCo  button {
+    width: 100px;
+    margin-left: 725px;
     margin-top: 15px;
-    margin-left: 275px;
-    width: 100px;
-}
-
-.btn-return button {
-    left: 30px;
-    width: 100px;
-    margin-top: 20px;
 }
 
