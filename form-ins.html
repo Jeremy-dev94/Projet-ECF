@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ECF.css">
+    <link rel="stylesheet" href="bootstrap.min (2).css">
+    <title>Inscription</title>
+</head>
+<body>
+    <h1 class="mon-h1">Quai Antique</h1>
+    <h2 class="mon-h2">Inscription</h2>
+    <form class="form-ins">
+        <fieldset>
+          <div class="form-group">
+            <label for="exampleInputEmail1" class="form-label mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adresse e-mail</font></font></label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez l'e-mail">
+            <small id="emailHelp" class="form-text text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nous ne partagerons jamais votre e-mail avec quelqu'un d'autre.</font></font></small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" class="form-label mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mot de passe</font></font></label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+          </div>
+          <div class="form-group">
+            <label for="exampleTextarea" class="form-label mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Avez vous des allergie ?</font></font></label>
+            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="formFile" class="form-label mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Exemple d'entrée de fichier par défaut</font></font></label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <fieldset class="form-group">
+            <legend class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Boutons radio</font></font></legend>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+              <label class="form-check-label" for="optionsRadios1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                La première option est ceci et cela - assurez-vous d'inclure pourquoi c'est génial
+              </font></font></label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              <label class="form-check-label" for="optionsRadios2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                L'option deux peut être autre chose et la sélectionner désélectionnera l'option un
+              </font></font></label>
+            </div>
+            <div class="form-check disabled">
+              <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled="">
+              <label class="form-check-label" for="optionsRadios3"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                L'option trois est désactivée
+              </font></font></label>
+            </div>
+          </fieldset>
+          <fieldset class="form-group">
+            <legend class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cases à cocher</font></font></legend>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Case à cocher par défaut
+              </font></font></label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+              <label class="form-check-label" for="flexCheckChecked"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                Case cochée
+              </font></font></label>
+            </div>
+          </fieldset>
+          <fieldset class="form-group">
+            <legend class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Commutateurs</font></font></legend>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+              <label class="form-check-label" for="flexSwitchCheckDefault"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Entrée de la case à cocher du commutateur par défaut</font></font></label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
+              <label class="form-check-label" for="flexSwitchCheckChecked"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Entrée de case à cocher de l'interrupteur coché</font></font></label>
+            </div>
+          </fieldset>
+          <fieldset class="form-group">
+            <legend class="mt-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gammes</font></font></legend>
+              <label for="customRange1" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Exemple de gamme</font></font></label>
+              <input type="range" class="form-range" id="customRange1">
+              <label for="disabledRange" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gamme désactivée</font></font></label>
+              <input type="range" class="form-range" id="disabledRange" disabled="">
+              <label for="customRange3" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Exemple de gamme</font></font></label>
+              <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+          </fieldset>
+          <button type="submit" class="btn btn-primary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Soumettre</font></font></button>
+        </fieldset>
+      </form>
+    
+
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="ECF.js"></script>
+</body>
+</html>

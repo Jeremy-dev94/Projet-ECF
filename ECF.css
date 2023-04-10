@@ -20,6 +20,11 @@ header {
     margin-top: 0.5em;
 }
 
+.mon-h2 {
+    text-align: center;
+    font-weight: 900;
+}
+
 .mon-p1 {
     text-align: center;
     border: 2px solid black;
@@ -29,9 +34,13 @@ header {
     margin-right: 200px;
 }
 
-.btn-reserv {
-    display: flex;
-    align-items: center;
-    position: absolute;
-
+.form-ins {
+    text-align: center;
+    background-color: darkgrey;
+    margin-left: 500px;
+    margin-right: 500px;
 }
+
+
+ 
+
