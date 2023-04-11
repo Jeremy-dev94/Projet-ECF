@@ -1,3 +1,7 @@
+html {
+    height: 2000px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -63,3 +67,24 @@ header {
     margin-top: 20px;
 }
 
+.acceuil-btn {
+    position: absolute;
+    left: 600px;
+    margin-top: 50px;
+}
+
+.acceuil-btn button {
+    width: 300px;
+}
+
+.card-body {
+    position: absolute;
+    display: block;
+    float: left;
+}
+
+.card2 .card-body {
+    position: absolute;
+    display:block;
+    float: right;
+}
